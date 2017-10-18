@@ -10,7 +10,7 @@ public class Rotor1 {
 	
 	
 	public Rotor1(String letterInput) {
-		this.rotorPosition = new String(inputValues).indexOf(letterInput);
+		this.rotorPosition = inputValues.indexOf(letterInput);
 		this.convertedValue = rotor1Values[rotorPosition];
 	}
 
